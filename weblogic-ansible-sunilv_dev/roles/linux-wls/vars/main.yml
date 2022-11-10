@@ -1,7 +1,7 @@
 packages_list:
   - 'git'
   - 'vim'
-  - 'python'
+  #- 'python'
   - 'ansible'
   - 'binutils'
   #- 'compat-libcap1'
