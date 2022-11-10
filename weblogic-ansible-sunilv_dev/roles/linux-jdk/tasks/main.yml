@@ -17,6 +17,7 @@
   copy:
     src: "/home/osboxes/Downloads/{{ jdk_installation_archive }}"
     dest: "/tmp/{{ jdk_installation_archive }}"
+    remote_src: yes
   
 
 - name: Extract JDK archive
