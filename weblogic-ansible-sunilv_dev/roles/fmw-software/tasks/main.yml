@@ -17,6 +17,7 @@
   copy:
     src: "/home/osboxes/Downloads/{{ weblogic_Zip_file }}"
     dest: "/tmp/{{ weblogic_Zip_file }}"
+    remote_src: yes
 
 #weblogic_Zip_file: 'fmw_14.1.1.0.0_wls_Disk1_1of1.zip'   
 #temp_installer: 'temp/fmw_14.1.1.0.0_wls.jar'
